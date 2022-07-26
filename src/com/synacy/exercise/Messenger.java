@@ -8,6 +8,10 @@ package com.synacy.exercise;
  * */
 public class Messenger {
 
+
+
+
+
 	public void sendMessage(String message, Contact contact, MessageType type) {
 		if (type.equals(MessageType.FAX)) {
 			System.out.printf("Sending %s to %s from %s via fax\n", message, contact.getPhoneNumber(), contact.getName());
