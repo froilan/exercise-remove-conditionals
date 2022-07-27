@@ -1,5 +1,11 @@
 package com.synacy.exercise;
 
-public enum MessageType {
-	FAX, SMS, EMAIL, VOICE
+public enum MessageType implements Message{
+	FAX, SMS, EMAIL, VOICE;
+
+	@Override
+	public void send() {
+
+	}
+
 }
